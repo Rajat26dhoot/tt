@@ -1,0 +1,214 @@
+<svg width="1728" height="970" viewBox="0 0 1728 970" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".16"/>
+    </filter>
+    <linearGradient id="top" x1="0" y1="0" x2="1728" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2b36a4"/>
+      <stop offset=".55" stop-color="#1f3496"/>
+      <stop offset="1" stop-color="#0a1f5e"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#d8ecff"/>
+      <stop offset="1" stop-color="#c6e0f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1728" height="970" fill="#f4f4f2"/>
+  <rect x="6" y="6" width="1716" height="62" fill="url(#top)"/>
+  <g opacity=".2">
+    <circle cx="1590" cy="29" r="54" fill="#6fb5ff"/>
+    <path d="M1542 17C1606 -8 1668 4 1708 66" stroke="white" stroke-width="8"/>
+    <path d="M1666 12C1640 54 1644 70 1692 74" stroke="white" stroke-width="7"/>
+  </g>
+  <text x="864" y="51" text-anchor="middle" fill="white" font-size="28" font-family="Arial, sans-serif" font-weight="700">Executive Summary of All Banks</text>
+
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(186 80)">
+      <rect width="250" height="84" fill="white" stroke="#d1d5db"/>
+      <rect width="250" height="30" fill="#18234f"/>
+      <text x="125" y="21" text-anchor="middle" fill="white" font-size="17" font-weight="700">Currency Type</text>
+      <rect x="0" y="34" width="122" height="52" fill="#444"/>
+      <rect x="128" y="34" width="122" height="52" fill="#d8deea"/>
+      <text x="61" y="69" text-anchor="middle" fill="white" font-size="24" font-weight="700">GBP</text>
+      <text x="189" y="69" text-anchor="middle" fill="#111827" font-size="24" font-weight="700">EUR</text>
+    </g>
+    <g transform="translate(446 80)">
+      <rect width="160" height="84" rx="4" fill="white" stroke="#d1d5db"/>
+      <rect width="160" height="30" rx="4" fill="#18234f"/>
+      <text x="80" y="21" text-anchor="middle" fill="white" font-size="17" font-weight="700">Month</text>
+      <rect x="16" y="40" width="128" height="32" fill="white" stroke="#e5e7eb"/>
+      <text x="28" y="62" fill="#111827" font-size="15">Dec-24</text>
+      <path d="M126 53L134 61L142 53" stroke="#111827"/>
+    </g>
+    <g transform="translate(614 80)">
+      <rect width="180" height="84" rx="4" fill="white" stroke="#d1d5db"/>
+      <rect width="180" height="30" rx="4" fill="#18234f"/>
+      <text x="90" y="21" text-anchor="middle" fill="white" font-size="17" font-weight="700">BU</text>
+      <rect x="16" y="40" width="148" height="32" fill="white" stroke="#e5e7eb"/>
+      <text x="28" y="62" fill="#111827" font-size="15">All</text>
+      <path d="M146 53L154 61L162 53" stroke="#111827"/>
+    </g>
+    <g transform="translate(802 80)">
+      <rect width="224" height="84" rx="4" fill="white" stroke="#d1d5db"/>
+      <rect width="224" height="30" rx="4" fill="#18234f"/>
+      <text x="112" y="21" text-anchor="middle" fill="white" font-size="17" font-weight="700">Entity Name</text>
+      <rect x="16" y="40" width="192" height="32" fill="white" stroke="#e5e7eb"/>
+      <text x="28" y="62" fill="#111827" font-size="15">All</text>
+      <path d="M188 53L196 61L204 53" stroke="#111827"/>
+    </g>
+    <g transform="translate(1034 80)">
+      <rect width="142" height="84" rx="4" fill="white" stroke="#d1d5db"/>
+      <rect width="142" height="30" rx="4" fill="#18234f"/>
+      <text x="71" y="21" text-anchor="middle" fill="white" font-size="17" font-weight="700">Bank Name</text>
+      <rect x="16" y="40" width="108" height="32" fill="white" stroke="#e5e7eb"/>
+      <text x="28" y="62" fill="#111827" font-size="15">All</text>
+      <path d="M102 53L110 61L118 53" stroke="#111827"/>
+    </g>
+    <g transform="translate(1182 80)">
+      <rect width="216" height="84" rx="4" fill="white" stroke="#d1d5db"/>
+      <rect width="216" height="30" rx="4" fill="#18234f"/>
+      <text x="108" y="21" text-anchor="middle" fill="white" font-size="17" font-weight="700">Account Number</text>
+      <rect x="16" y="40" width="180" height="32" fill="white" stroke="#e5e7eb"/>
+      <text x="28" y="62" fill="#111827" font-size="15">All</text>
+      <path d="M174 53L182 61L190 53" stroke="#111827"/>
+    </g>
+    <g transform="translate(1406 80)">
+      <rect width="126" height="84" rx="4" fill="white" stroke="#d1d5db"/>
+      <rect width="126" height="30" rx="4" fill="#18234f"/>
+      <text x="63" y="21" text-anchor="middle" fill="white" font-size="17" font-weight="700">A/C Type</text>
+      <rect x="16" y="40" width="94" height="32" fill="white" stroke="#e5e7eb"/>
+      <text x="28" y="62" fill="#111827" font-size="15">All</text>
+      <path d="M88 53L96 61L104 53" stroke="#111827"/>
+    </g>
+    <text x="1580" y="120" text-anchor="middle" fill="#d66538" font-size="20" font-weight="700">05-Jan-25</text>
+    <text x="1580" y="151" text-anchor="middle" fill="#4b5563" font-size="13">Last Balance Date</text>
+  </g>
+
+  <g transform="translate(22 182)" font-family="Arial, sans-serif">
+    <g>
+      <rect width="326" height="96" fill="url(#card)"/>
+      <rect x="8" y="8" width="5" height="80" fill="#152050"/>
+      <text x="26" y="47" fill="#111827" font-size="36">85</text>
+      <text x="26" y="80" fill="#111827" font-size="24">No. of Accounts</text>
+    </g>
+    <g transform="translate(344 0)">
+      <rect width="326" height="96" fill="url(#card)"/>
+      <rect x="8" y="8" width="5" height="80" fill="#152050"/>
+      <text x="26" y="47" fill="#111827" font-size="36">31</text>
+      <text x="26" y="80" fill="#111827" font-size="24">No. of Banks</text>
+    </g>
+    <g transform="translate(688 0)">
+      <rect width="326" height="96" fill="url(#card)"/>
+      <rect x="8" y="8" width="5" height="80" fill="#152050"/>
+      <text x="26" y="47" fill="#111827" font-size="36">7,595,894</text>
+      <text x="26" y="80" fill="#111827" font-size="24">Current Day Balance</text>
+    </g>
+    <g transform="translate(1032 0)">
+      <rect width="326" height="96" fill="url(#card)"/>
+      <rect x="8" y="8" width="5" height="80" fill="#152050"/>
+      <text x="26" y="47" fill="#111827" font-size="36">6,793,178</text>
+      <text x="26" y="80" fill="#111827" font-size="24">Last Day Balance</text>
+    </g>
+    <g transform="translate(1376 0)">
+      <rect width="326" height="96" fill="url(#card)"/>
+      <rect x="8" y="8" width="5" height="80" fill="#152050"/>
+      <text x="26" y="47" fill="#111827" font-size="36">802,716</text>
+      <text x="26" y="80" fill="#111827" font-size="24">Difference</text>
+    </g>
+  </g>
+
+  <g transform="translate(22 288)" font-family="Arial, sans-serif" filter="url(#shadow)">
+    <rect width="846" height="348" fill="white"/>
+    <text x="10" y="24" fill="#000" font-size="20" font-weight="700">Daily Closing Balance - Current Day vs. Same Day Last Month</text>
+    <path d="M0 36H846" stroke="#d1d5db"/>
+    <circle cx="18" cy="60" r="7" fill="#18234f"/><text x="30" y="66" fill="#555" font-size="13">Current Day</text>
+    <circle cx="118" cy="60" r="7" fill="#c7c7c7"/><text x="130" y="66" fill="#555" font-size="13">Same Day Last Month</text>
+    <polyline points="32,246 58,158 86,132 126,126 170,164 218,150 258,126 292,196 326,132 362,152 402,136 438,122 470,70 500,86 532,166 568,202 608,192 648,178 684,132 724,154 752,126 782,138 814,120" fill="none" stroke="#1c264d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="32,278 86,266 116,214 150,246 190,248 224,280 284,260 326,224 378,258 430,280 484,274 522,264 552,286 590,246 620,268 660,258 698,248 724,210 754,274 814,292" fill="none" stroke="#c9c9c9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#4b5563" font-size="14">
+      <text x="30" y="148">5.2M</text><text x="74" y="124">6.6M</text><text x="122" y="112">6.9M</text><text x="206" y="132">6.7M</text><text x="250" y="104">7.3M</text><text x="322" y="116">7.1M</text><text x="454" y="58">8.3M</text><text x="728" y="86">7.8M</text><text x="814" y="76">8.0M</text>
+    </g>
+    <g fill="#555" font-size="12">
+      <text x="32" y="318">1</text><text x="80" y="318">3</text><text x="128" y="318">5</text><text x="176" y="318">7</text><text x="224" y="318">9</text><text x="272" y="318">10</text><text x="320" y="318">11</text><text x="368" y="318">12</text><text x="416" y="318">14</text><text x="464" y="318">16</text><text x="512" y="318">18</text><text x="560" y="318">19</text><text x="608" y="318">21</text><text x="656" y="318">23</text><text x="704" y="318">25</text><text x="752" y="318">27</text><text x="812" y="318">29</text>
+    </g>
+  </g>
+
+  <g transform="translate(886 288)" font-family="Arial, sans-serif" filter="url(#shadow)">
+    <rect width="842" height="348" fill="white"/>
+    <text x="10" y="24" fill="#000" font-size="20" font-weight="700">Monthly Closing Balance - Current Year vs. Last Year</text>
+    <path d="M0 36H842" stroke="#d1d5db"/>
+    <circle cx="18" cy="60" r="7" fill="#18234f"/><text x="30" y="66" fill="#555" font-size="13">CM</text>
+    <circle cx="64" cy="60" r="7" fill="#c7c7c7"/><text x="76" y="66" fill="#555" font-size="13">LY</text>
+    <polyline points="58,92 124,176 184,198 246,166 302,126 356,116 422,178 486,218 552,230 612,232 674,186 734,126 792,94" fill="none" stroke="#1c264d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="58,170 130,142 188,136 250,148 310,166 376,180 450,182 512,228 558,290 612,250 676,136 734,150 792,218" fill="none" stroke="#c9c9c9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#4b5563" font-size="14">
+      <text x="44" y="78">9.0M</text><text x="52" y="182">6.8M</text><text x="168" y="128">7.6M</text><text x="282" y="142">7.3M</text><text x="408" y="178">6.2M</text><text x="520" y="254">5.0M</text><text x="648" y="132">7.5M</text><text x="782" y="116">8.9M</text>
+    </g>
+    <g fill="#555" font-size="13">
+      <text x="50" y="328">Jul</text><text x="166" y="328">Aug</text><text x="286" y="328">Sep</text><text x="408" y="328">Oct</text><text x="532" y="328">Nov</text><text x="650" y="328">Dec</text><text x="786" y="328">Jan</text>
+    </g>
+  </g>
+
+  <g transform="translate(22 644)" font-family="Arial, sans-serif" filter="url(#shadow)">
+    <rect width="414" height="326" fill="white"/>
+    <text x="10" y="24" fill="#000" font-size="20" font-weight="700">Bank Balance by Country</text>
+    <path d="M0 36H414" stroke="#d1d5db"/>
+    <circle cx="208" cy="184" r="104" fill="#1d2aa6"/>
+    <path d="M208 80A104 104 0 0 1 312 184L260 184A52 52 0 0 0 208 132Z" fill="#7c0b8d"/>
+    <path d="M312 184A104 104 0 0 1 234 284L221 234A52 52 0 0 0 260 184Z" fill="#2298ed"/>
+    <path d="M130 253A104 104 0 0 1 104 184H156A52 52 0 0 0 169 218Z" fill="#ef7336"/>
+    <circle cx="208" cy="184" r="68" fill="white"/>
+    <g fill="#555" font-size="14">
+      <text x="300" y="244">Turkey 3.9M</text><text x="65" y="260">Farance 1.5M</text><text x="55" y="180">China 1.0M</text><text x="48" y="132">Japan 0.6M</text><text x="89" y="106">Brazil 0.4M</text><text x="180" y="82">USA</text>
+    </g>
+  </g>
+
+  <g transform="translate(454 644)" font-family="Arial, sans-serif" filter="url(#shadow)">
+    <rect width="414" height="326" fill="white"/>
+    <text x="10" y="24" fill="#000" font-size="20" font-weight="700">Bank Balance by BU</text>
+    <path d="M0 36H414" stroke="#d1d5db"/>
+    <circle cx="208" cy="184" r="104" fill="#1d2aa6"/>
+    <path d="M208 80A104 104 0 0 1 300 232L255 206A52 52 0 0 0 208 132Z" fill="#1d2aa6"/>
+    <path d="M300 232A104 104 0 0 1 196 287L202 236A52 52 0 0 0 255 206Z" fill="#2298ed"/>
+    <path d="M116 232A104 104 0 0 1 102 184H154A52 52 0 0 0 161 206Z" fill="#ef7336"/>
+    <path d="M102 184A104 104 0 0 1 138 106L173 145A52 52 0 0 0 154 184Z" fill="#7c0b8d"/>
+    <path d="M138 106A104 104 0 0 1 190 82L199 133A52 52 0 0 0 173 145Z" fill="#e84baa"/>
+    <circle cx="208" cy="184" r="68" fill="white"/>
+    <g fill="#555" font-size="13">
+      <text x="322" y="124">Luxury 2.3M</text><text x="252" y="268">Premium 2.0M</text><text x="52" y="266">Brands 1.1M</text><text x="8" y="176">Essentials</text><text x="88" y="104">Fashion 0.6M</text><text x="88" y="84">Lifestyle 0.5M</text>
+    </g>
+  </g>
+
+  <g transform="translate(886 644)" font-family="Arial, sans-serif" filter="url(#shadow)">
+    <rect width="414" height="326" fill="white"/>
+    <text x="10" y="24" fill="#000" font-size="20" font-weight="700">Bank Balance by Bank</text>
+    <path d="M0 36H414" stroke="#d1d5db"/>
+    <rect x="30" y="82" width="42" height="204" fill="#1d2aa6"/><text x="36" y="70" fill="#555" font-size="13">5.8M</text>
+    <rect x="82" y="224" width="42" height="62" fill="#1d2aa6"/><text x="86" y="212" fill="#555" font-size="13">1.2M</text>
+    <rect x="134" y="264" width="42" height="22" fill="#1d2aa6"/><text x="140" y="252" fill="#555" font-size="13">0.4M</text>
+    <rect x="186" y="276" width="42" height="10" fill="#1d2aa6"/>
+    <rect x="238" y="280" width="42" height="6" fill="#1d2aa6"/>
+    <g fill="#555" font-size="12"><text x="30" y="306">CHNN</text><text x="84" y="306">UAEA</text><text x="135" y="306">JPNJ</text><text x="186" y="306">AUSG</text><text x="238" y="306">BRLT</text><text x="292" y="306">FRAA</text></g>
+  </g>
+
+  <g transform="translate(1312 644)" font-family="Arial, sans-serif" filter="url(#shadow)">
+    <rect width="416" height="326" fill="white"/>
+    <text x="10" y="24" fill="#000" font-size="20" font-weight="700">Bank Balance by Local Currency</text>
+    <path d="M0 36H416" stroke="#d1d5db"/>
+    <rect x="14" y="36" width="380" height="42" fill="#858585"/>
+    <text x="22" y="62" fill="white" font-size="18" font-weight="700">LC</text>
+    <text x="214" y="62" fill="white" font-size="18" font-weight="700">Cont%</text>
+    <text x="302" y="62" fill="white" font-size="18" font-weight="700">Balance</text>
+    <path d="M204 36V316" stroke="#18234f"/>
+    <g fill="#111827" font-size="17">
+      <text x="22" y="102">TRY</text><text x="230" y="102">51.14%</text><text x="300" y="102">3,884,302</text>
+      <text x="22" y="136">EUR</text><text x="230" y="136">22.72%</text><text x="300" y="136">1,725,480</text>
+      <text x="22" y="170">CNY</text><text x="230" y="170">12.91%</text><text x="300" y="170">980,478</text>
+      <text x="22" y="204">JPY</text><text x="230" y="204">7.41%</text><text x="300" y="204">563,036</text>
+      <text x="22" y="238">BRL</text><text x="230" y="238">5.60%</text><text x="300" y="238">425,027</text>
+      <text x="22" y="272">USD</text><text x="230" y="272">0.23%</text><text x="300" y="272">17,570</text>
+      <text x="22" y="306" font-weight="700">Total</text><text x="230" y="306" font-weight="700">100.00%</text><text x="300" y="306" font-weight="700">7,595,894</text>
+    </g>
+    <g stroke="#d1d5db"><path d="M14 112H394"/><path d="M14 146H394"/><path d="M14 180H394"/><path d="M14 214H394"/><path d="M14 248H394"/><path d="M14 282H394"/></g>
+  </g>
+</svg>

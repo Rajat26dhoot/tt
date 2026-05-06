@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --background: #f7f8ff;
+  --foreground: #070914;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: #070914;
+  --foreground: #f7f8ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 18% 12%, rgba(79, 140, 255, 0.18), transparent 32rem),
+    radial-gradient(circle at 86% 4%, rgba(45, 212, 191, 0.14), transparent 28rem),
+    var(--background);
+  color: var(--foreground);
+}
+
+::selection {
+  background: rgba(79, 140, 255, 0.35);
+}
+
+.mesh-panel {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.58)),
+    radial-gradient(circle at top left, rgba(79, 140, 255, 0.22), transparent 24rem),
+    radial-gradient(circle at bottom right, rgba(139, 92, 246, 0.18), transparent 22rem);
+}
+
+.dark .mesh-panel {
+  background:
+    linear-gradient(135deg, rgba(13, 18, 37, 0.92), rgba(12, 15, 30, 0.64)),
+    radial-gradient(circle at top left, rgba(79, 140, 255, 0.24), transparent 24rem),
+    radial-gradient(circle at bottom right, rgba(139, 92, 246, 0.2), transparent 22rem);
+}
+
+.glass {
+  border: 1px solid rgba(125, 141, 177, 0.24);
+  background: rgba(255, 255, 255, 0.64);
+  backdrop-filter: blur(22px);
+}
+
+.dark .glass {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(9, 13, 28, 0.64);
+}
+
+.grid-lines {
+  background-image:
+    linear-gradient(rgba(125, 141, 177, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(125, 141, 177, 0.12) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(to bottom, black, transparent 88%);
+}
+
+.aurora-text {
+  background: linear-gradient(90deg, #4f8cff, #8b5cf6, #2dd4bf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.tech-marquee {
+  animation: tech-marquee 26s linear infinite;
+}
+
+.tech-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes tech-marquee {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
