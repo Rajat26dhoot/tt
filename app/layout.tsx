@@ -33,6 +33,11 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://simulon.example"
   },
+  icons: {
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg"
+  },
   robots: {
     index: true,
     follow: true
